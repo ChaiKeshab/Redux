@@ -82,7 +82,7 @@
             flex-grow: 1;
             justify-content: flex-end;
 
-            .nav-four {
+            .nav-one {
                 div{
                     display: flex;
                     justify-content: center;
@@ -133,8 +133,7 @@
     }
 }
 
-@media (max-width: 1370px) {
-
+@media (max-width: 1360px) {
     .navbar {
         .container-navbar {
             nav {

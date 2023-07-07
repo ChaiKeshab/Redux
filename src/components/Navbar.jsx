@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 // import { Link } from 'react-router-dom'
 import menu from '../Images/menu.svg';
 import exit from '../Images/exit.svg';
@@ -29,7 +29,7 @@ export default function Navbar() {
     }
 
     const toggleHambar = () => {
-        if (window.matchMedia('(max-width: 1370px)').matches) {
+        if (window.matchMedia('(max-width: 1360px)').matches) {
             if (hamBar === false) {
                 setHambar(true)
             } else if (hamBar === true) {
@@ -60,30 +60,30 @@ export default function Navbar() {
                             <li><a href="/" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Home</a></li>
                             <li><a href="/chai" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Chai</a></li>
                             <li><a href="/anime" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Anime</a></li>
+                            <li><div>1000</div></li>
                         </ul>
 
-                        <div className='line-break'>
+                        {/* <div className='line-break'>
                             <div></div>
                         </div>
 
-                        {/* <ul className={`nav-two`}>
+                        <ul className={`nav-two`}>
                             <li><a href="/business" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Business</a></li>
                             <li><a href="/technology" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Technology</a></li>
                             <li><a href="/entertainment" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Entertainment</a></li>
-                        </ul> */}
+                        </ul>
 
-                        {/* <ul className={`nav-three`}>
+                        <ul className={`nav-three`}>
                             <li><a href="/sport " onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Sport </a></li>
                             <li><a href="/gaming" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Gaming</a></li>
                             <li><a href="/music" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Music</a></li>
-                        </ul> */}
+                        </ul>
 
                         <ul className={`nav-four`}>
                             <li><a href="/beauty" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Beauty</a></li>
                             <li><a href="/science" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Science</a></li>
                             <li><a href="/food" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Food</a></li>
-                            <li><div>1000</div></li>
-                        </ul>
+                        </ul> */}
                     </div>
 
                     <div className='ellipsis-container'>
