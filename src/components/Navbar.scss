@@ -63,6 +63,7 @@
             display: flex;
             place-content: center;
             margin: 0 10px 0 10px;
+            cursor: pointer;
 
             .sun {
                 width: 20px;
@@ -80,6 +81,19 @@
             display: flex;
             flex-grow: 1;
             justify-content: flex-end;
+
+            .nav-four {
+                div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    width: 100px;
+                    height: 35px;
+                    color: var(--article-color);
+                    background-color: var(--primary-color);
+                }
+            }
 
             .nav-one,
             .nav-two,

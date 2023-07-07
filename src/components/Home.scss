@@ -3,9 +3,9 @@
 
     width: fit-content;
     height: fit-content;
-    border: 1px solid rgba(230, 230, 230, 0.5);
+    border: 1px solid var(--article-color);
     border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(119, 119, 119, 0.5);
+    box-shadow: 1px 1px 5px var(--shadow);
 
     .image-container {
         width: 300px;
@@ -26,14 +26,17 @@
 
         p {
             margin: initial;
+            color: var(--text-color);
         }
 
         button {
             height: 30px;
             width: 30px;
-            background-color: rgba(230, 230, 230, 0.5);
+            background-color: var(--nav);
+            color: var(--text-color2);
             border: none;
             border-radius: 5px;
+            font-size: 20px;
 
             &:hover {
                 cursor: pointer;

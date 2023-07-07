@@ -66,23 +66,24 @@ export default function Navbar() {
                             <div></div>
                         </div>
 
-                        <ul className={`nav-two`}>
+                        {/* <ul className={`nav-two`}>
                             <li><a href="/business" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Business</a></li>
                             <li><a href="/technology" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Technology</a></li>
                             <li><a href="/entertainment" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Entertainment</a></li>
-                        </ul>
+                        </ul> */}
 
                         {/* <ul className={`nav-three`}>
                             <li><a href="/sport " onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Sport </a></li>
                             <li><a href="/gaming" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Gaming</a></li>
                             <li><a href="/music" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Music</a></li>
-                        </ul>
+                        </ul> */}
 
                         <ul className={`nav-four`}>
                             <li><a href="/beauty" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Beauty</a></li>
                             <li><a href="/science" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Science</a></li>
                             <li><a href="/food" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Food</a></li>
-                        </ul> */}
+                            <li><div>1000</div></li>
+                        </ul>
                     </div>
 
                     <div className='ellipsis-container'>

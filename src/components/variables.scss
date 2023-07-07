@@ -1,8 +1,8 @@
 :root {
-    // --primary-color-light: #0018F1;
-    // --select-color-light: #0016d8;
-    // --primary-color-dark: #05C4D6;
-    // --select-color-dark: #00FFFF;
+    --primary-color-light: #0018F1;
+    --select-color-light: #0016d8;
+    --primary-color-dark: #05C4D6;
+    --select-color-dark: #00FFFF;
 
     --display-show: block;
     --left-show: 25vw;
@@ -38,8 +38,8 @@
 }
 
 .lightMode {
-    // --primary-color: var(--primary-color-light);
-    // --select-color: var(--select-color-light);
+    --primary-color: var(--primary-color-light);
+    --select-color: var(--select-color-light);
     --background-color: var(--background-color-light);
     --nav: var(--nav-light);
     --text-color: var(--text-color-light);
@@ -51,8 +51,8 @@
 }
 
 .darkMode {
-    // --primary-color: var(--primary-color-dark);
-    // --select-color: var(--select-color-dark);
+    --primary-color: var(--primary-color-dark);
+    --select-color: var(--select-color-dark);
     --background-color: var(--background-color-dark);
     --nav: var(--nav-dark);
     --text-color: var(--text-color-dark);
