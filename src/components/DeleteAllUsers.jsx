@@ -3,7 +3,7 @@
 const DeleteAllUsers = () => {
     return (
         <div>
-            <div>hi</div>
+            <div></div>
         </div>
     )
 }
