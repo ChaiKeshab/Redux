@@ -38,9 +38,9 @@ export default function Navbar() {
         }
     }
 
-    const closeMenu = () => {
-        setHambar(false)
-    }
+    // const closeMenu = () => {
+    //     setHambar(false)
+    // }
 
 
     return (
@@ -56,12 +56,11 @@ export default function Navbar() {
 
                     <div className={`nav-div ${hamBar ? 'show' : 'hide'}`}>
 
-                        <ul className={`nav-one`}>
+                        {/* <ul className={`nav-one`}>
                             <li><a href="/" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Home</a></li>
                             <li><a href="/chai" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Chai</a></li>
                             <li><a href="/anime" onClick={() => closeMenu()} className={`${hamBar ? 'hide' : 'show'}`}>Anime</a></li>
-                            <li><div>1000</div></li>
-                        </ul>
+                        </ul> */}
 
                         {/* <div className='line-break'>
                             <div></div>

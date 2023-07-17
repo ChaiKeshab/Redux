@@ -1,42 +1,35 @@
-.container-home {
-    margin: 100px auto 0 auto;
+@import './variables.css';
 
+.container-home {
     width: fit-content;
     height: fit-content;
     border: 1px solid var(--article-color);
     border-radius: 10px;
     box-shadow: 1px 1px 5px var(--shadow);
-
-    .image-container {
-        width: 300px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .color-field {
+        border-radius: 10px;
         height: 200px;
-
-        img {
-            width: 300px;
-            height: 200px;
-            border-radius: 10px;
-        }
+        width: 300px;
     }
 
-    .items {
+    .btn-choose {
+        margin: 10px 0;
         display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        margin: 8px 0;
-
-        p {
-            margin: initial;
-            color: var(--text-color);
-        }
+        place-content: space-between;
 
         button {
-            height: 30px;
-            width: 30px;
             background-color: var(--nav);
             color: var(--text-color2);
             border: none;
             border-radius: 5px;
-            font-size: 20px;
+            font-size: 16px;
+            width: 80px;
+            margin: 0 10px;
 
             &:hover {
                 cursor: pointer;

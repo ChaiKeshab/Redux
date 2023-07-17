@@ -1,0 +1,46 @@
+.container-userDetails {
+    margin: 100px auto 0 auto;
+
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid var(--article-color);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px var(--shadow);
+
+    .image-container {
+        width: 300px;
+        height: 200px;
+
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+        }
+    }
+
+    .items {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin: 8px 0;
+
+        p {
+            margin: initial;
+            color: var(--text-color);
+        }
+
+        button {
+            height: 30px;
+            width: 30px;
+            background-color: var(--nav);
+            color: var(--text-color2);
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
